@@ -15,7 +15,7 @@ public class Fibonacci {
     
     System.out.print("Input a number to extend the Fibonacci series: ");
     System.out.println();
-    int numberOfTerms = keyboard.nextInt();
+    long numberOfTerms = keyboard.nextLong();
     
     System.out.println("Fibonacci series up to " + numberOfTerms + " numbers: ");
     
